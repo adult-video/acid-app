@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/settings.css">
+  </head>
+  <body class="properties">
+    <div id="settings" class="sectionAcid-active">
+      <aside class="sidebar">
+        <table class="sections">
+          <tr><td>Settings</td></tr>
+          <tr><td><br></td></tr>
+          <tr><th id="sectionGeneralButton" class="trigger" data-trigger="selectSectionGeneral">General</th></tr>
+          <tr><th id="sectionAcidButton" class="trigger" data-trigger="selectSectionAcid">Acid</th></tr>
+        </table>
+      </aside>
+      <main class="main">
+        <table class="section" id="sectionGeneral">
+          <tr>
+          <th>
+            Fontsize
+          </th>
+          <td>
+            <span id="generalFontsize"></span>px <span class="trigger" data-trigger="decreaseFontsize">[-</span>\<span class="trigger" data-trigger="increaseFontsize">+]</span>
+          </td>
+          </tr>
+          <tr>
+            <th>
+              Align Text
+            </th>
+            <td>
+              <span id="generalAlignTextCenter"  class="trigger" data-trigger="toggleGeneralAlignTextCenter" data-false="left" data-true="center"></span>
+            </td>
+          </tr>
+        </table>
+        <div  class="section" id="sectionAcid">
+        <table>
+          <tr>
+            <th>
+              Bitmap Mode
+            </th>
+            <td>
+              <span id="acidGlobalBitmap"  class="trigger" data-trigger="toggleAcidGlobalBitmap" data-false="per line" data-true="global"></span>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Seed
+            </th>
+            <td>
+              <span id="acidSeed"  class="trigger" data-trigger="acidGenerateSeed">0</span>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Comment Indicator
+            </th>
+            <td>
+              <span id="acidCommentIndicator"  class="trigger" data-trigger="setAcidCommentIndicator"></span>
+            </td>
+          </tr>
+          <!-- <tr>
+            <th>
+              Ignore Mappings
+            </th>
+            <td>
+              <span id="acidIgnoreMappings"  class="trigger" data-trigger="toggleAcidIgnoreMappings" data-false="no" data-true="yes"></span>
+            </td>
+          </tr> -->
+          <tr><td><br></td></tr>
+          <tr><td><br></td></tr>
+        </table>
+        <table>
+          <tr><th>Add</th>
+            <td><span id="acidMappingA"  class="trigger" data-trigger="setCharacter" data-char="A"></span></td>
+          </tr>
+          <tr><th>Bitmap</th>
+            <td><span id="acidMappingB"  class="trigger" data-trigger="setCharacter" data-char="B"></span></td>
+          </tr>
+          <tr><th>Clock</th>
+            <td><span id="acidMappingC"  class="trigger" data-trigger="setCharacter" data-char="C"></span></td>
+          </tr>
+          <tr><th>Divide</th>
+            <td><span id="acidMappingD"  class="trigger" data-trigger="setCharacter" data-char="D"></span></td>
+          </tr>
+          <tr><th>Expand</th>
+            <td><span id="acidMappingE"  class="trigger" data-trigger="setCharacter" data-char="E"></span></td>
+          </tr>
+          <tr><th>Frame</th>
+            <td><span id="acidMappingF"  class="trigger" data-trigger="setCharacter" data-char="F"></span></td>
+          </tr>
+          <tr><th>Greater</th>
+            <td><span id="acidMappingG"  class="trigger" data-trigger="setCharacter" data-char="G"></span></td>
+          </tr>
+          <tr><th>XCursor</th>
+            <td><span id="acidMappingH"  class="trigger" data-trigger="setCharacter" data-char="H"></span></td>
+          </tr>
+          <tr><th>Invert</th>
+            <td><span id="acidMappingI"  class="trigger" data-trigger="setCharacter" data-char="I"></span></td>
+          </tr>
+          <tr><th>YCursor</th>
+            <td><span id="acidMappingJ"  class="trigger" data-trigger="setCharacter" data-char="J"></span></td>
+          </tr>
+          <tr><th>Compress</th>
+            <td><span id="acidMappingK"  class="trigger" data-trigger="setCharacter" data-char="K"></span></td>
+          </tr>
+          <tr><th>Lower</th>
+            <td><span id="acidMappingL"  class="trigger" data-trigger="setCharacter" data-char="L"></span></td>
+          </tr>
+          <tr><th>Minus</th>
+            <td><span id="acidMappingM"  class="trigger" data-trigger="setCharacter" data-char="M"></span></td>
+          </tr>
+          <tr><th>Noise</th>
+            <td><span id="acidMappingN"  class="trigger" data-trigger="setCharacter" data-char="N"></span></td>
+          </tr>
+          <tr><th>Perlin</th>
+            <td><span id="acidMappingO"  class="trigger" data-trigger="setCharacter" data-char="O"></span></td>
+          </tr>
+          <tr><th>Plasma</th>
+            <td><span id="acidMappingP"  class="trigger" data-trigger="setCharacter" data-char="P"></span></td>
+          </tr>
+          <tr><th>Square</th>
+            <td><span id="acidMappingQ"  class="trigger" data-trigger="setCharacter" data-char="Q"></span></td>
+          </tr>
+          <tr><th>Random</th>
+            <td><span id="acidMappingR"  class="trigger" data-trigger="setCharacter" data-char="R"></span></td>
+          </tr>
+          <tr><th>Sine</th>
+            <td><span id="acidMappingS"  class="trigger" data-trigger="setCharacter" data-char="S"></span></td>
+          </tr>
+          <tr><th>Times</th>
+            <td><span id="acidMappingT"  class="trigger" data-trigger="setCharacter" data-char="T"></span></td>
+          </tr>
+          <tr><th>Uncertainty</th>
+            <td><span id="acidMappingU"  class="trigger" data-trigger="setCharacter" data-char="U"></span></td>
+          </tr>
+          <tr><th>Triangle</th>
+            <td><span id="acidMappingV"  class="trigger" data-trigger="setCharacter" data-char="V"></span></td>
+          </tr>
+          <tr><th>Water</th>
+            <td><span id="acidMappingW"  class="trigger" data-trigger="setCharacter" data-char="W"></span></td>
+          </tr>
+          <tr><th>XFragment</th>
+            <td><span id="acidMappingX"  class="trigger" data-trigger="setCharacter" data-char="X"></span></td>
+          </tr>
+          <tr><th>YFragment</th>
+            <td><span id="acidMappingY"  class="trigger" data-trigger="setCharacter" data-char="Y"></span></td>
+          </tr>
+          <tr><th>Keypress</th>
+            <td><span id="acidMappingZ"  class="trigger" data-trigger="setCharacter" data-char="Z"></span></td>
+          </tr>
+        </table>
+      </div>
+      </main>
+    </div>
+    <script type="module" src="../js/windows/settings.js"></script>
+  </body>
+</html>

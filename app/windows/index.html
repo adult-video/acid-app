@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body class="preload">
+    <div class='container'>
+      <header class='header'>
+        <span class='left'>
+          [<span id="filename" contenteditable spellcheck="false">untitled</span>].<span id="fileType">.test</span><br>
+        </span>
+        <span class="right">
+          <span id="transportStopped"><span id="transportRunning" class="trigger" data-trigger="playpause"></span></span>
+        </span>
+      </header>
+      <div id='input' spellcheck="false" contenteditable=""></div>
+       <footer class='footer'>
+        <span class="left">
+          <span class="shortcut"><span class="trigger" data-trigger="tempoDown">[-</span>\<span class="trigger" data-trigger="tempoUp">+]</span></span>
+          <!--<span class="shortcut">[R]</span> <span class="trigger" data-trigger="refreshIO">IO</span> 
+          <br>
+          <span class="shortcut trigger" data-trigger="changeInput">[I]</span> <span id="inputLabel">No Device</span> (<span id="inputIndex">0</span>/<span id="inputTotal">0</span>) <span class='shortcut'><span class="trigger" data-trigger="previousInput">[&lt;</span>\<span class="trigger" data-trigger="nextInput">&gt;]</span></span><br>
+          <span class="shortcut trigger" data-trigger="changeOutput">[O]</span> <span id="outputLabel">No Device</span> (<span id="outputIndex">0</span>/<span id="outputTotal">0</span>) <span class='shortcut'><span class="trigger" data-trigger="previousOutput">[&lt;</span>\<span class="trigger" data-trigger="nextOutput">&gt;]</span></span>-->
+        </span>
+        <span class="right">
+            <!--<span id="clockType"  class="trigger shortcut" data-trigger="toggleClockType" data-true="[48ppq]" data-false="[24ppq]"></span>-->
+          <span id="tempo" class="display">128</span>BPM
+          <!--<br>
+          <span id="clockSend"  class="trigger inactive" data-trigger="toggleClockSend">[send]</span>
+          <span id="clockRecieve" class="trigger inactive" data-trigger="toggleClockRecieve">[recieve]</span>
+          <span class='shortcut'>&nbsp;&nbsp;&nbsp;&nbsp;clock</span> 
+          <br>
+          <span id="transportSend"  class="trigger inactive" data-trigger="toggleTransportSend">[send]</span>
+          <span id="transportRecieve" class="trigger inactive" data-trigger="toggleTransportRecieve">[recieve]</span>
+          <span class='shortcut'>transport</span> -->
+        </span>
+      </footer>
+    </div>
+    <script type="module" src="../js/windows/index.js"></script>
+  </body>
+</html>

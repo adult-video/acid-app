@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="116.66mm"
+   height="116.66mm"
+   viewBox="0 0 116.66 116.65999"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   sodipodi:docname="icon.svg"
+   inkscape:export-filename="icon.png"
+   inkscape:export-xdpi="235.14485"
+   inkscape:export-ydpi="235.14485"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.52223094"
+     inkscape:cx="223.08138"
+     inkscape:cy="489.24715"
+     inkscape:window-width="1440"
+     inkscape:window-height="900"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-410.10417,-69.05624)">
+    <g
+       id="g1">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke-width:8.61171;stroke-linecap:round;paint-order:markers stroke fill"
+         id="rect1"
+         width="116.66"
+         height="116.66"
+         x="410.10416"
+         y="69.056244"
+         ry="14.781431" />
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:5.55625;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect3"
+         width="97.789406"
+         height="97.789413"
+         x="419.53946"
+         y="78.491547"
+         ry="7.4163914" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:30.3821px;line-height:1;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.24736;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         x="468.41272"
+         y="128.13272"
+         id="text15"
+         transform="scale(0.92055534,1.0863008)"><tspan
+           sodipodi:role="line"
+           id="tspan15"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:30.3821px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black,  Heavy';fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.24736;stroke-dasharray:none;stroke-opacity:1"
+           x="468.41272"
+           y="128.13272">ACID</tspan></text>
+    </g>
+  </g>
+</svg>

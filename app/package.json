@@ -1,0 +1,23 @@
+{
+  "name": "ACID",
+  "productName": "ACID",
+  "version": "0.2.0",
+  "description": "ACID is short for Algorithms Create Image Data - a livecoding enviroment for visuals",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . ACID --platform=darwin --arch=x64 --out ../builds --overwrite --icon=icons/icon.icns ; echo 'Built for OSX'"
+  },
+  "repository": "https://github.com/adult-video/acid-app",
+  "keywords": [],
+  "author": "Johannes Hassenstein",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^11.3.0",
+    "electron-installer-debian": "^3.1.0",
+    "electron-packager": "^16.0.0"
+  },
+  "dependencies": {
+    "electron-json-storage": "^4.3.0"
+  }
+}
